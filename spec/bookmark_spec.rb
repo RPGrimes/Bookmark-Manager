@@ -5,14 +5,14 @@ describe '#all' do
     connection = PG.connect(dbname: 'bookmark_manager_test')
 
     #Add the test data
-    Bookmarks.add('http://www.makersacademy.com')
-    Bookmarks.add('http://www.destroyallsoftware.com')
-    Bookmarks.add('http://www.google.com')
+    Bookmarks.add('http://www.makersacademy.com', 'makers')
+    Bookmarks.add('http://www.destroyallsoftware.com', 'destroy all software')
+    Bookmarks.add('http://www.google.com', 'google')
 
     bookmarks = Bookmarks.all
 
-    expect(bookmarks).to include('http://www.makersacademy.com')
-    expect(bookmarks).to include('http://www.destroyallsoftware.com')
-    expect(bookmarks).to include('http://www.google.com')
+    expect(bookmarks).to include(["http://www.makersacademy.com", "makers"])
+    expect(bookmarks).to include(["http://www.destroyallsoftware.com", "destroy all software"])
+    expect(bookmarks).to include(["http://www.google.com", "google"])
   end
 end

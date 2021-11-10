@@ -5,8 +5,8 @@ feature 'add new bookmarks' do
     connection = PG.connect(dbname: 'bookmark_manager_test')
 
     visit('/')
-    fill_in :new_bookmark_name, with: 'http://www.steam.com'
+    fill_in :new_bookmark_title, with: 'steam'
     click_button('Submit')
-    expect(page).to have_content 'http://www.steam.com'
+    expect(page).to have_content 'steam'
   end
 end
