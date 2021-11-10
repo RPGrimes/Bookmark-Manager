@@ -5,9 +5,9 @@ describe '#all' do
     connection = PG.connect(dbname: 'bookmark_manager_test')
 
     #Add the test data
-    connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');")
-    connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.destroyallsoftware.com');")
-    connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.google.com');")
+    Bookmarks.add('http://www.makersacademy.com')
+    Bookmarks.add('http://www.destroyallsoftware.com')
+    Bookmarks.add('http://www.google.com')
 
     bookmarks = Bookmarks.all
 
