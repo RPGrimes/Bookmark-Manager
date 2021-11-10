@@ -5,3 +5,6 @@ feature 'Shows index' do
         expect(page).to have_content "bookmark manager"
     end
 end
+
+
+
