@@ -18,7 +18,7 @@ You're going to build a bookmark manager. A bookmark manager is a website to mai
 
 ## Challenges
 #### Challenge 1
-- Generate User Stories from Requirements :white_check_mark:
+- Generate User Story for viewing bookmarks based on the requirements :white_check_mark:
 
 ```
 As a user
@@ -66,7 +66,7 @@ I would like to see a list of my bookmarks
 
 
 
-##### To set up the database
+## To set up the database
 
 1) Connect to `psql` and create the `bookmark_manager` database:
 
