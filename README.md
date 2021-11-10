@@ -3,6 +3,10 @@ Task from Week 4 of the Makers bootcamp. This task was completed during daily pa
 
 Day 1 partner --> [Will Sharkey](https://github.com/willjshark) - Challenges 1 to 4 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. 
 
+Day 2 partner --> [Adam Harbisher](https://github.com/adam3sUK) - Challenges 5 to 8 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. Unfortunately we experienced a number of serious technical issues outside of our control so our pairing session was cut short.
+
+Day 3 partner --> [Ben Margerison](https://github.com/bmargerison) - Challenges 9 to 11 completed. Challenges 1 to 4 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made sure to take our time reading the challenge specification and discussed at length what we thought the best approach before commencing the tasks.
+
 ## About the Task
 This week's task has the purpose of developing our skills doing the following:
 - Building a simple web app with a database (this primary goal breaks down into the two sub-goals below)
@@ -40,6 +44,27 @@ I would like to see a list of my bookmarks
 #### Challenge 5
 - Use the `psql` command to interact with Postgres :white_check_mark:
 - Create tables using SQL :white_check_mark:
+
+#### Challenge 6
+- Use SQL terms like `SELECT`, `FROM`, `WHERE` and `*` to query a database table :white_check_mark:
+- Use SQL terms like `INSERT`, `UPDATE` and `DELETE` to create, update and delete database entries :white_check_mark:
+
+#### Challenge 7
+- Attach a database to a web application :white_check_mark:
+
+#### Challenge 8
+- Use database GUIs to interact with databases :white_check_mark:
+
+#### Challenge 9
+- Set up a test environment :white_check_mark:
+
+#### Challenge 10
+- Build a complete full-stack feature :white_check_mark:
+
+#### Challenge 11
+- Map objects across systems :white_check_mark:
+
+
 
 ##### To set up the database
 
