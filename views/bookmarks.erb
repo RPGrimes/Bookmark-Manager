@@ -3,7 +3,8 @@
     <div id='<%= "delete-#{bookmark.id}" %>' class="bookmark-block">
       <h2><a href="<%= "#{bookmark.url}" %>"><%= "#{bookmark.title}" %></a></h2>
       <form method="post" action="/delete-bookmark">
-        <button id="<%= "#{bookmark.id}" %>" type="submit">Delete</button>
+        <input type='hidden' name='id' value='<%= "#{bookmark.id}" %>'>
+        <button>Delete</button>
       </form>
     </div>
   <% end %>
