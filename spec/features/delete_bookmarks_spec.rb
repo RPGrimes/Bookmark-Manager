@@ -8,8 +8,7 @@ feature 'delete bookmarks' do
     visit('/bookmarks')
     expect(page).to have_link("steam", :href=>"https://store.steampowered.com/")
     expect(page).to have_link("Google", :href=>"https://google.com/")
-    page.should have_css('div#delete-1')
-    within('div#delete-1') do
+    within('div#bookmark-1') do
       click_button "Delete"
     end
     expect(page).to_not have_link("steam", :href=>"https://store.steampowered.com/")
