@@ -3,6 +3,9 @@ require 'sinatra/reloader'
 require './lib/bookmarks'
 
 class BookmarkManager < Sinatra::Base
+
+  enable :sessions, :method_override
+  
   configure :development do
     register Sinatra::Reloader
   end
