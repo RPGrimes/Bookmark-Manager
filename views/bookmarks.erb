@@ -1,10 +1,16 @@
-
+<% n = 1 %>
+  <ul>
   <% @bookmarks.each do |bookmark| %>
-    <div id='<%= "delete-#{bookmark.id}" %>' class="bookmark-block">
-      <h2><a href="<%= "#{bookmark.url}" %>"><%= "#{bookmark.title}" %></a></h2>
+    <div id='<%= "bookmark-#{n}" %>' class="bookmark-block">
+      <h3><a href="<%= "#{bookmark.url}" %>"><%= "#{bookmark.title}" %></a></h3>
       <form method="post" action="/delete-bookmark">
         <input type='hidden' name='id' value='<%= "#{bookmark.id}" %>'>
         <button>Delete</button>
       </form>
+      <form method="post" action="/bookmarks/<%= bookmark.id %>/edit" method="get">
+        <button>Update</button>
+      </form>
     </div>
+  <% n += 1 %>
   <% end %>
+</ul>
