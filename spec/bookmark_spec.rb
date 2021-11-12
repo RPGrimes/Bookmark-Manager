@@ -12,8 +12,7 @@ describe '#all' do
     bookmarks = Bookmarks.all
     
     expect(bookmarks.length).to eq 3
-    expect(bookmarks).to include(["http://www.makersacademy.com", "makers"])
-    expect(bookmarks).to include(["http://www.destroyallsoftware.com", "destroy all software"])
-    expect(bookmarks).to include(["http://www.google.com", "google"])
+    expect(bookmarks[0].title).to include("makers")
+    expect(bookmarks[1].url).to include("http://www.destroyallsoftware.com")
   end
 end

@@ -6,7 +6,8 @@ feature 'add new bookmarks' do
 
     visit('/')
     fill_in :title, with: 'steam'
+    fill_in :url, with: 'https://store.steampowered.com/'
     click_button('Submit')
-    expect(page).to have_content 'steam'
+    expect(page).to have_link("steam", :href=>"https://store.steampowered.com/")
   end
 end
