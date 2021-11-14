@@ -5,7 +5,12 @@ Day 1 partner --> [Will Sharkey](https://github.com/willjshark) - Challenges 1 t
 
 Day 2 partner --> [Adam Harbisher](https://github.com/adam3sUK) - Challenges 5 to 8 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. Unfortunately we experienced a number of serious technical issues outside of our control so our pairing session was cut short.
 
-Day 3 partner --> [Ben Margerison](https://github.com/bmargerison) - Challenges 9 to 11 completed. Challenges 1 to 4 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made sure to take our time reading the challenge specification and discussed at length what we thought the best approach before commencing the tasks.
+Day 3 partner --> [Ben Margerison](https://github.com/bmargerison) - Challenges 9 to 11 completed. Challenges 9 to 11 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made sure to take our time reading the challenge specification and discussed at length what we thought the best approach before commencing the tasks.
+
+Day 4 partner --> [Dean Lewis](https://github.com/doinyne) - Challenges 9 to 11 completed. Challenges 9 to 11 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made sure to take our time reading the challenge specification and discussed at length what we thought the best approach before commencing the tasks.
+
+Day 5 partner --> [Adam Harbisher](https://github.com/adam3sUK) - Challenges 11 to 13 completed. As our pairing partners were both unavailable we decided to pair again to make up for the shortened session we had on Day 2. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns.
+
 
 ## About the Task
 This week's task has the purpose of developing our skills doing the following:
@@ -64,7 +69,11 @@ I would like to see a list of my bookmarks
 #### Challenge 11
 - Map objects across systems :white_check_mark:
 
+#### Challenge 12
+- Build a database-enabled app whilst remaining compliant with security requirements :white_check_mark:
 
+#### Challenge 13
+- Implement a new method that can delete bookmarks :white_check_mark:
 
 ## To set up the database
 

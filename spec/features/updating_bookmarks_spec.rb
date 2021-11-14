@@ -8,8 +8,8 @@ feature 'update bookmarks' do
     within('div#bookmark-1') do
       click_button "Update"
     end
-    fill_in('title', with: 'Steam Powered')
+    fill_in :title, with: 'steam'
     click_button "Submit"
-    expect(page).to have_link("Steam Powered", :href=>"https://store.steampowered.com/") 
+    expect(page).to have_link("steam", :href=>"https://store.steampowered.com/") 
   end
 end

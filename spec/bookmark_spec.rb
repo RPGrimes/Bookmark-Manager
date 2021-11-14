@@ -19,7 +19,7 @@ end
 
 describe '.update' do
   it 'updates the bookmark with the given data' do
-    bookmark = Bookmarks.add(title: 'Google', url: 'http://www.google.com')
+    bookmark = Bookmarks.add('Google','http://www.google.com')
     updated_bookmark = Bookmarks.update(id: bookmark.id, url: 'http://www.hoogle.com', title: 'Hoogle')
 
     expect(updated_bookmark).to be_a Bookmarks
